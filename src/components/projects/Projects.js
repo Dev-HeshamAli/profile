@@ -34,7 +34,7 @@ export const myProject = [
       "This is my portfolio project, and I applied it to React and used the components. It consists of the home page, About, experience, projects, and ways to communicate with me. I displayed my level and all my projects in it. It works on all screens and in dark mode and light mode.",
     image: portfolio,
     repo: "https://github.com/Dev-HeshamAli/profile",
-    demo: "https://profile-six-mocha.vercel.app/",
+    demo: "https://profile-gules-gamma.vercel.app/",
     video: "",
     stack: "react",
 
