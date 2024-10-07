@@ -5,11 +5,11 @@ import JavaScript from "../../Assets/JavaScript.png";
 import react from "../../Assets/React.png";
 import ReactbootStrap from "../../Assets/React Bootstrap.png";
 import ReactRouter from "../../Assets/react-router.png";
-import Redux from "../../Assets/Redux.png";
 import MaterialUi from "../../Assets/Material UI.png";
 import jsonServer from "../../Assets/JSON.png";
 import swiper from "../../Assets/swiper.png";
 import strapi from "../../Assets/strapi.png";
+import vite from "../../Assets/Vite.js.png";
 
 // images
 import adminDashboardImage from "../../Assets/projects images/admin-dashboard.png";
@@ -34,7 +34,7 @@ export const myProject = [
       "This is my portfolio project, and I applied it to React and used the components. It consists of the home page, About, experience, projects, and ways to communicate with me. I displayed my level and all my projects in it. It works on all screens and in dark mode and light mode.",
     image: portfolio,
     repo: "https://github.com/Dev-HeshamAli/profile",
-    demo: "https://profile.vercel.app/",
+    demo: "https://profile-six-mocha.vercel.app/",
     video: "",
     stack: "react",
 
@@ -51,7 +51,7 @@ export const myProject = [
       "https://www.linkedin.com/posts/heshamalihassan_frontenddevelopment-webdevelopment-react-activity-7248834287037267968-wlP_?utm_source=share&utm_medium=member_desktop",
     stack: "react",
 
-    tech: [react, MaterialUi, ReactRouter, Redux, swiper, strapi],
+    tech: [react, MaterialUi, ReactRouter, swiper,vite, strapi],
   },
   {
     title: "Admin Dashboard",
@@ -64,7 +64,43 @@ export const myProject = [
       "https://www.linkedin.com/posts/heshamalihassan_frontenddevelopment-webdevelopment-react-activity-7248836492406521856-sTPc?utm_source=share&utm_medium=member_desktop",
     stack: "react",
 
-    tech: [react, ReactbootStrap, ReactRouter],
+    tech: [react, ReactbootStrap, ReactRouter,vite],
+  },
+  {
+    title: "Podcast Page",
+    description:
+      "Developed an interactive website with dynamic features, using Bootstrap for styling and JavaScript for interactivity. ",
+    image: bodcast,
+    demo: "https://dev-heshamali.github.io/html-css-Bootstrap-js/",
+    repo: "https://github.com/Dev-HeshamAli/html-css-Bootstrap-js",
+    video:
+      "https://www.linkedin.com/posts/heshamalihassan_frontenddevelopment-webdevelopment-html-activity-7247002295186456578-4eCd/?utm_source=share&utm_medium=member_desktop",
+    stack: "javascript",
+    tech: [html, css, JavaScript, bootStrap, swiper],
+  },
+  {
+    title: "Social Media Application",
+    description:
+      "Created a social application with Material UI and Vite integration. Features dark mode.  ",
+    image: social,
+    demo: "https://mui-vite.vercel.app/",
+    repo: "https://github.com/Dev-HeshamAli/mui-vite",
+    video:
+      "https://www.linkedin.com/posts/heshamalihassan_frontenddevelopment-webdevelopment-react-activity-7247720538817605632-vVB0/?utm_source=share&utm_medium=member_desktop",
+    stack: "react",
+    tech: [react, MaterialUi,vite],
+  },
+  {
+    title: "Daily Expenses Tracker",
+    description:
+      "Designed a website for tracking daily expenses using Material UI. Features dark mode. ",
+    image: daily,
+    demo: "https://mui-gray.vercel.app/",
+    repo: "https://github.com/Dev-HeshamAli/mui",
+    video:
+      "https://www.linkedin.com/posts/heshamalihassan_frontenddevelopment-webdevelopment-react-activity-7247726975417516033-th1u/?utm_source=share&utm_medium=member_desktop",
+    stack: "react",
+    tech: [react, MaterialUi, ReactRouter,jsonServer],
   },
   {
     title: "Dashboard",
@@ -118,18 +154,6 @@ export const myProject = [
     tech: [html, css],
   },
   {
-    title: "Podcast Page",
-    description:
-      "Developed an interactive website with dynamic features, using Bootstrap for styling and JavaScript for interactivity. ",
-    image: bodcast,
-    demo: "https://dev-heshamali.github.io/html-css-Bootstrap-js/",
-    repo: "https://github.com/Dev-HeshamAli/html-css-Bootstrap-js",
-    video:
-      "https://www.linkedin.com/posts/heshamalihassan_frontenddevelopment-webdevelopment-html-activity-7247002295186456578-4eCd/?utm_source=share&utm_medium=member_desktop",
-    stack: "javascript",
-    tech: [html, css, JavaScript, bootStrap, swiper],
-  },
-  {
     title: "Bootstrap Professional Layout",
     description:
       "A clean and responsive landing page built with Bootstrap, designed for businesses and startups. It features a flexible layout that adapts to different screen sizes, ensuring a smooth user experience across all devices. ",
@@ -153,28 +177,5 @@ export const myProject = [
     stack: "htmlandcss",
     tech: [html, css, bootStrap],
   },
-  {
-    title: "Social Media Application",
-    description:
-      "Created a social application with Material UI and Vite integration. Features dark mode.  ",
-    image: social,
-    demo: "https://mui-vite.vercel.app/",
-    repo: "https://github.com/Dev-HeshamAli/mui-vite",
-    video:
-      "https://www.linkedin.com/posts/heshamalihassan_frontenddevelopment-webdevelopment-react-activity-7247720538817605632-vVB0/?utm_source=share&utm_medium=member_desktop",
-    stack: "react",
-    tech: [react, MaterialUi],
-  },
-  {
-    title: "Daily Expenses Tracker",
-    description:
-      "Designed a website for tracking daily expenses using Material UI. Features dark mode. ",
-    image: daily,
-    demo: "https://mui-gray.vercel.app/",
-    repo: "https://github.com/Dev-HeshamAli/mui",
-    video:
-      "https://www.linkedin.com/posts/heshamalihassan_frontenddevelopment-webdevelopment-react-activity-7247726975417516033-th1u/?utm_source=share&utm_medium=member_desktop",
-    stack: "react",
-    tech: [react, MaterialUi, ReactRouter,jsonServer],
-  },
+
 ];

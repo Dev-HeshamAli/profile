@@ -8,7 +8,7 @@ import {
   Button,
   useMediaQuery,
 } from "@mui/material";
-import CV from "../../Assets/ahmedgamhody frontend developer cv.pdf";
+import CV from "../../Assets/Hesham Ali CV.pdf";
 import Grid from "@mui/material/Grid";
 import VerifiedIcon from "@mui/icons-material/Verified";
 import SocialLinksCom from "../SocialLinksCom";
@@ -101,7 +101,7 @@ export default function Hero() {
               endIcon={<CloudDownloadIcon />}
               href={CV}
               target="_blank"
-              download="Ahmed_Gamhody_FrontEnd_Developer_CV.pdf"
+              download="Hesham Ali CV"
             >
               Download My CV
             </Button>
