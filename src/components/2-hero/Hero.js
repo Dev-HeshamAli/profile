@@ -8,7 +8,7 @@ import {
   Button,
   useMediaQuery,
 } from "@mui/material";
-import CV from "../../Assets/Hesham Ali CV.pdf";
+import CV from "../../Assets/final cv.pdf";
 import Grid from "@mui/material/Grid";
 import VerifiedIcon from "@mui/icons-material/Verified";
 import SocialLinksCom from "../SocialLinksCom";
