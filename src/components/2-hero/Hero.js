@@ -101,7 +101,7 @@ export default function Hero() {
               endIcon={<CloudDownloadIcon />}
               href={CV}
               target="_blank"
-              download="Hesham Ali CV"
+              download="Hesham Ali's CV"
             >
               Download My CV
             </Button>
