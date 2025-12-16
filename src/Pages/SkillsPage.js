@@ -11,7 +11,9 @@ import html from "../Assets/HTML5.png";
 import css from "../Assets/CSS3.png";
 import bootStrap from "../Assets/Bootstrap.png";
 import JavaScript from "../Assets/JavaScript.png";
+import typeScript from "../Assets/TypeScript.png";
 import react from "../Assets/React.png";
+import next from "../Assets/Next.js.png";
 import ReactRouter from "../Assets/react-router.png";
 import MaterialUi from "../Assets/Material UI.png";
 import Git from "../Assets/Git.png";
@@ -19,11 +21,15 @@ import GitHub from "../Assets/GitHub.png";
 import CleanCode from "../Assets/clean code.png";
 import json from "../Assets/JSON.png";
 import swiper from "../Assets/swiper.png";
-//
 import VS from "../Assets/Visual Studio Code (VS Code).png";
 import npm from "../Assets/NPM.png";
 import ChatGPT from "../Assets/chatgpt.png";
 import GitHubCodespaces from "../Assets/GitHub Codespaces.png";
+import clerk from "../Assets/Clerk.png";
+import shadcnUI from "../Assets/shadcnUI.png";
+import redux from "../Assets/Redux.png";
+import tailwind from "../Assets/Tailwind CSS.png";
+import postman from "../Assets/Postman.png";
 import Vite from "../Assets/Vite.js.png";
 import { motion } from "framer-motion";
 
@@ -44,12 +50,24 @@ export default function SkillsPage() {
       img: bootStrap,
     },
     {
+      title: "Tailwind CSS",
+      img: tailwind,
+    },
+    {
       title: "JavaScript",
       img: JavaScript,
     },
     {
-      title: "React",
+      title: "TypeScript",
+      img: typeScript,
+    },
+    {
+      title: "React.js",
       img: react,
+    },
+    {
+      title: "Next.js",
+      img:next ,
     },
     {
       title: "React Router",
@@ -58,6 +76,10 @@ export default function SkillsPage() {
     {
       title: "Material UI",
       img: MaterialUi,
+    },
+    {
+      title: "Shadcn UI",
+      img: shadcnUI,
     },
     {
       title: "Git",
@@ -79,6 +101,19 @@ export default function SkillsPage() {
       title: "Swiper js",
       img: swiper,
     },
+    {
+      title: "Postman",
+      img: postman,
+    },
+    {
+      title: "Redux",
+      img: redux,
+    },
+    {
+      title: "Clerk",
+      img: clerk,
+    },
+
   ];
   const myTools = [
     {
@@ -127,21 +162,13 @@ export default function SkillsPage() {
     >
       <Container
         sx={{
-          backgroundColor: theme.palette.mainBackground[theme.palette.mode],
+          backgroundColor: theme.palette.bodyBackground[theme.palette.mode],
           py: 5,
+          minHeight: "91vh",
         }}
       >
         <CssBaseline />
 
-        <Typography
-          variant="h4"
-          textAlign={"center"}
-          fontWeight={"bold"}
-          color="rgb(20 184 166)"
-          letterSpacing={"0.6px"}
-        >
-          Experience
-        </Typography>
         <Grid container mt={5} alignItems={"start"} spacing={2}>
           <Grid size={{ xs: 12, md: 12, lg: 12 }}>
             <Typography

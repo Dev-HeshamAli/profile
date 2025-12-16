@@ -10,7 +10,12 @@ import jsonServer from "../../Assets/JSON.png";
 import swiper from "../../Assets/swiper.png";
 import strapi from "../../Assets/strapi.png";
 import vite from "../../Assets/Vite.js.png";
-
+import redux from "../../Assets/Redux.png";
+import nextjs from "../../Assets/Next.js.png";
+import tailwind from "../../Assets/Tailwind CSS.png";
+import clerk from "../../Assets/Clerk.png";
+import shadcnUI from "../../Assets/shadcnUI.png";
+import mongo from "../../Assets/mongo.png";
 // images
 import adminDashboardImage from "../../Assets/projects images/admin-dashboard.png";
 import temp4 from "../../Assets/projects images/temp4.3.png";
@@ -24,6 +29,10 @@ import social from "../../Assets/projects images/socialmedia.png";
 import daily from "../../Assets/projects images/dialy.png";
 import portfolio from "../../Assets/projects images/portfolio.png";
 import e_commerce_fullstack from "../../Assets/projects images/e-commerce.png";
+import cashy from "../../Assets/projects images/cashy.jpg";
+import our from "../../Assets/projects images/our.png";
+import next from "../../Assets/projects images/next.png";
+import grad from "../../Assets/projects images/grad.png";
 
 //
 
@@ -34,7 +43,6 @@ export const myProject = [
       "This is my portfolio project, and I applied it to React and used the components. It consists of the home page, About, experience, projects, and ways to communicate with me. I displayed my level and all my projects in it. It works on all screens and in dark mode and light mode.",
     image: portfolio,
     repo: "https://github.com/Dev-HeshamAli/profile",
-    demo: "https://profile-six-mocha.vercel.app/",
     video: "",
     stack: "react",
 
@@ -51,7 +59,7 @@ export const myProject = [
       "https://www.linkedin.com/posts/heshamalihassan_frontenddevelopment-webdevelopment-react-activity-7248834287037267968-wlP_?utm_source=share&utm_medium=member_desktop",
     stack: "react",
 
-    tech: [react, MaterialUi, ReactRouter, swiper,vite, strapi],
+    tech: [react, MaterialUi, ReactRouter, swiper, vite, strapi],
   },
   {
     title: "Admin Dashboard",
@@ -64,7 +72,7 @@ export const myProject = [
       "https://www.linkedin.com/posts/heshamalihassan_frontenddevelopment-webdevelopment-react-activity-7248836492406521856-sTPc?utm_source=share&utm_medium=member_desktop",
     stack: "react",
 
-    tech: [react, ReactbootStrap, ReactRouter,vite],
+    tech: [react, ReactbootStrap, ReactRouter, vite],
   },
   {
     title: "Podcast Page",
@@ -88,7 +96,7 @@ export const myProject = [
     video:
       "https://www.linkedin.com/posts/heshamalihassan_frontenddevelopment-webdevelopment-react-activity-7247720538817605632-vVB0/?utm_source=share&utm_medium=member_desktop",
     stack: "react",
-    tech: [react, MaterialUi,vite],
+    tech: [react, MaterialUi, vite],
   },
   {
     title: "Daily Expenses Tracker",
@@ -100,7 +108,7 @@ export const myProject = [
     video:
       "https://www.linkedin.com/posts/heshamalihassan_frontenddevelopment-webdevelopment-react-activity-7247726975417516033-th1u/?utm_source=share&utm_medium=member_desktop",
     stack: "react",
-    tech: [react, MaterialUi, ReactRouter,jsonServer],
+    tech: [react, MaterialUi, ReactRouter, jsonServer],
   },
   {
     title: "Dashboard",
@@ -177,5 +185,49 @@ export const myProject = [
     stack: "htmlandcss",
     tech: [html, css, bootStrap],
   },
-
+  {
+    title: "Cashy Landing Page",
+    description:
+      "An accessible web application designed to help visually impaired users identify currency using image recognition, providing instant audio and text feedback for easy and independent use.",
+    image: cashy,
+    demo: "https://cashy-livid.vercel.app/",
+    repo: "https://github.com/Dev-HeshamAli/cashy",
+    video:
+      "https://drive.google.com/file/d/193InavgkX9sUu9Q48gK1CgvZoEQjnp5u/view?usp=drive_link",
+    stack: "react",
+    tech: [react, MaterialUi, ReactRouter, vite],
+  },
+  {
+    title: "E-commerce Website",
+    description:
+      "A fully functional E-commerce platform built with a Strapi backend and a responsive front-end using Vite, React, The application features a sleek, modern design with smooth navigation and real-time product management through the Strapi CMS. It offers dynamic product listings, cart management, and user authentication",
+    image: our,
+    repo: "https://github.com/Dev-HeshamAli/Our-Ecom",
+    video:
+      "https://drive.google.com/file/d/1bHDfPwPP2sE629-cb-7scRPgT-FM5feU/view?usp=sharing",
+    stack: "react",
+    tech: [react, ReactRouter, redux, vite],
+  },
+  {
+    title: "Todo App",
+    description:
+      "A responsive to-do application that helps users organize tasks efficiently with a clean interface and smooth user experience.",
+    image: next,
+    repo: "https://github.com/Dev-HeshamAli/Todo",
+    video:
+      "https://drive.google.com/file/d/1NyVJz4uZl8lMKe9mtwwzZ0YPhlt-ozpq/view?usp=sharing",
+    stack: "nextjs",
+    tech: [nextjs, tailwind, clerk, shadcnUI, mongo],
+  },
+  {
+    title: "Sign Language Supported Chat Application",
+    description:
+      "Developing an AI-powered chat application that translates sign language into text using computer vision and machine learning, enabling accessible real-time communication for people with hearing or speech impairments.",
+    image: grad,
+    repo: "https://github.com/Dev-HeshamAli/graduation-proj",
+    video:
+      "https://drive.google.com/file/d/14nFMyb1wHwvAMBn4r4v8YNbHyz8s5rwp/view?usp=sharing",
+    stack: "react",
+    tech: [react, MaterialUi, ReactRouter, vite ,jsonServer],
+  },
 ];

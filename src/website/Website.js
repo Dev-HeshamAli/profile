@@ -5,6 +5,7 @@ import { Outlet } from "react-router-dom";
 
 export default function Website() {
   const theme = useTheme();
+  console.log(theme);
 
   return (
     <Box
@@ -14,7 +15,7 @@ export default function Website() {
       }}
     >
       <CssBaseline />
-      <Container>
+      <Container maxWidth="xl">
         <CssBaseline />
         <Header />
         <Outlet />

@@ -7,9 +7,10 @@ export default function ProjectsPage() {
   return (
     <Container
       sx={{
-        backgroundColor: theme.palette.mainBackground[theme.palette.mode],
+        backgroundColor: theme.palette.bodyBackground[theme.palette.mode],
         pt: 10,
         pb: 5,
+        
       }}
     >
       <CssBaseline />

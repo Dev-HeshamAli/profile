@@ -35,12 +35,15 @@ export default function ContactPage() {
       initial="initial"
       animate="animate"
       exit="exit"
+
     >
       <Container
         sx={{
-          backgroundColor: theme.palette.mainBackground[theme.palette.mode],
+          backgroundColor: theme.palette.bodyBackground[theme.palette.mode],
           pt: 10,
           pb: 5,
+                    height: "91vh",
+
         }}
       >
         <CssBaseline />

@@ -8,7 +8,7 @@ import {
   Button,
   useMediaQuery,
 } from "@mui/material";
-import CV from "../../Assets/Hesham Ali CV.pdf";
+import CV from "../../Assets/CV.pdf";
 import Grid from "@mui/material/Grid";
 import VerifiedIcon from "@mui/icons-material/Verified";
 import SocialLinksCom from "../SocialLinksCom";
@@ -32,7 +32,7 @@ export default function Hero() {
           <Box sx={{ mb: 3 }}>
             <Tooltip title="Hesham">
               <img
-                src={require("../../Assets/meee.jpg")}
+                src={require("../../Assets/hesham.jpg")}
                 alt="Hesham Ali"
                 style={{
                   maxWidth: "100%",
@@ -62,7 +62,7 @@ export default function Hero() {
             Hesham Ali Hassan
           </Typography>
           <Typography sx={{ fontWeight: "bold" }} variant="h5">
-          Front-End Developer  ( React js )
+            Front-End Developer ( React js | Next js )
           </Typography>
           <Typography
             variant="body1"
@@ -72,12 +72,14 @@ export default function Hero() {
               letterSpacing: "1px",
             }}
           >
-            Hi, I'm Hesham Ali Hassan, Front-End Developer focused on building
-            modern, responsive, and user-centered web applications. Currently,
-            I'm pursuing my studies at the Faculty of Computers and Artificial
-            Intelligence, specializing in IT. I have developed strong skills in
-            technologies such as React, JavaScript, HTML, CSS, Bootstrap,
-            Material UI, and Vite.
+            Hi, I'm Hesham Ali Hassan, a Front-End Developer specializing in
+            React.js and Next.js, focused on building modern, responsive, and
+            user-centered web applications. I have hands-on experience working
+            on real-world platforms and building 15+ projects, including
+            dashboards, e-commerce systems, and management platforms. I study at
+            the Faculty of Computers and Artificial Intelligence (CS
+            Department), and I work with technologies such as React, Next.js,
+            JavaScript, TypeScript, Material UI, Tailwind CSS, and Vite.
           </Typography>
           <Stack direction={"row"} gap={1}>
             <SocialLinksCom />

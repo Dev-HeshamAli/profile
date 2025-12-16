@@ -1,6 +1,6 @@
 import React from "react";
 import GitHubIcon from "@mui/icons-material/GitHub";
-import LinkedInIcon from "@mui/icons-material/LinkedIn";
+// import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import FacebookOutlinedIcon from "@mui/icons-material/FacebookOutlined";
 import MailIcon from "@mui/icons-material/Mail";
 import WhatsAppIcon from "@mui/icons-material/WhatsApp";
@@ -12,11 +12,11 @@ const socialLinks = [
     href: "https://github.com/Dev-HeshamAli",
     tooltip: "GitHub",
   },
-  {
-    icon: <LinkedInIcon fontSize="medium" />,
-    href: "https://www.linkedin.com/in/heshamalihassan/",
-    tooltip: "LinkedIn",
-  },
+  // {
+  //   icon: <LinkedInIcon fontSize="medium" />,
+  //   href: "https://www.linkedin.com/in/heshamalihassan/",
+  //   tooltip: "LinkedIn",
+  // },
   {
     icon: <FacebookOutlinedIcon fontSize="medium" />,
     href: "https://www.facebook.com/profile.php?id=100026421549171&mibextid=LQQJ4d",

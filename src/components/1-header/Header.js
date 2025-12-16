@@ -23,8 +23,6 @@ import { ModeChange } from "../../context/ModeContext";
 import CloseIcon from "@mui/icons-material/Close";
 import { Link, NavLink } from "react-router-dom";
 
-//
-// const navItems = ["Home", "About", "Projects", "Contact"];
 const navItems = [
   {
     name: "Home",
@@ -126,7 +124,7 @@ export default function Header() {
       position="static"
       sx={{
         boxShadow: "none !important",
-        backgroundColor: theme.palette.mainBackground[theme.palette.mode],
+        backgroundColor: theme.palette.bodyBackground[theme.palette.mode],
         backgroundImage: "none",
         color: theme.palette.text.primary,
         pt: 2,

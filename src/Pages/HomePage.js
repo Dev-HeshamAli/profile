@@ -33,8 +33,9 @@ export default function HomePage() {
       exit="exit"
     >
       <Container
+      maxWidth="2xl"
         sx={{
-          backgroundColor: theme.palette.mainBackground[theme.palette.mode],
+          backgroundColor: theme.palette.bodyBackground[theme.palette.mode],
         }}
       >
         <CssBaseline />

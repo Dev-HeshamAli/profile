@@ -7,7 +7,7 @@ import { myProject } from "../projects/Projects";
 import Pagination from "@mui/material/Pagination";
 export default function Main() {
   const [page, setPage] = useState(1);
-  const limtePerPage = 6;
+  const limtePerPage = 8;
   const theme = useTheme();
   const [alignment, setAlignment] = React.useState("allProjects");
   const boxRef = useRef(null);
@@ -34,6 +34,10 @@ export default function Main() {
     {
       title: "React Js",
       value: "react",
+    },
+    {
+      title: "Next Js",
+      value: "nextjs",
     },
   ];
 

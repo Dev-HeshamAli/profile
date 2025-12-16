@@ -15,7 +15,7 @@ export default function Footer() {
       </Typography>
 
       <Typography variant="body1" sx={{ textAlign: "center" }}>
-        Copyright © 2024
+        Copyright © 2025
         <span
           style={{
             color: "rgb(20 184 166)",
