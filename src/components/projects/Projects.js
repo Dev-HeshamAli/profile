@@ -55,7 +55,7 @@ export const myProject = [
     repo: "https://github.com/Dev-HeshamAli/E-commerce",
     demo: "https://e-commerce-nine-opal.vercel.app/",
     video:
-      "https://www.linkedin.com/posts/heshamalihassan_frontenddevelopment-webdevelopment-react-activity-7248834287037267968-wlP_?utm_source=share&utm_medium=member_desktop",
+      "https://drive.google.com/file/d/1wp0dyEroScLIqtyRG3ScJM9_Zhsd0Wht/view?usp=sharing",
     stack: "react",
 
     tech: [react, MaterialUi, ReactRouter, swiper, vite, strapi],
@@ -68,7 +68,7 @@ export const myProject = [
     repo: "https://github.com/Dev-HeshamAli/Dashboard-with-React-MUI",
     demo: "https://dashboard-with-react-mui.vercel.app/",
     video:
-      "https://www.linkedin.com/posts/heshamalihassan_frontenddevelopment-webdevelopment-react-activity-7248836492406521856-sTPc?utm_source=share&utm_medium=member_desktop",
+      "https://drive.google.com/file/d/1a5CrFQZilBIDzyUMgfxejBvPoOXV1h-F/view?usp=drive_link",
     stack: "react",
 
     tech: [react, ReactbootStrap, ReactRouter, vite],
@@ -81,7 +81,7 @@ export const myProject = [
     demo: "https://dev-heshamali.github.io/html-css-Bootstrap-js/",
     repo: "https://github.com/Dev-HeshamAli/html-css-Bootstrap-js",
     video:
-      "https://www.linkedin.com/posts/heshamalihassan_frontenddevelopment-webdevelopment-html-activity-7247002295186456578-4eCd/?utm_source=share&utm_medium=member_desktop",
+      "https://drive.google.com/file/d/1xDpXRpfFPWIhHuIK_BDcZHllFuKtUsUq/view?usp=drive_link",
     stack: "javascript",
     tech: [html, css, JavaScript, bootStrap, swiper],
   },
@@ -93,7 +93,7 @@ export const myProject = [
     demo: "https://mui-vite.vercel.app/",
     repo: "https://github.com/Dev-HeshamAli/mui-vite",
     video:
-      "https://www.linkedin.com/posts/heshamalihassan_frontenddevelopment-webdevelopment-react-activity-7247720538817605632-vVB0/?utm_source=share&utm_medium=member_desktop",
+      "https://drive.google.com/file/d/1zBvhNcoX-h8nkh8FUxEQIwddkTBZpZm9/view?usp=drive_link",
     stack: "react",
     tech: [react, MaterialUi, vite],
   },
@@ -105,7 +105,7 @@ export const myProject = [
     demo: "https://mui-gray.vercel.app/",
     repo: "https://github.com/Dev-HeshamAli/mui",
     video:
-      "https://www.linkedin.com/posts/heshamalihassan_frontenddevelopment-webdevelopment-react-activity-7247726975417516033-th1u/?utm_source=share&utm_medium=member_desktop",
+      "https://drive.google.com/file/d/1fCsggh5tVzZJx4C6r9f7ApNJgWnUlTQO/view?usp=drive_link",
     stack: "react",
     tech: [react, MaterialUi, ReactRouter, jsonServer],
   },
@@ -117,8 +117,7 @@ export const myProject = [
     demo: "https://dev-heshamali.github.io/html-css-4/",
     repo: "https://github.com/Dev-HeshamAli/html-css-4",
     video:
-      "https://www.linkedin.com/posts/heshamalihassan_html-css-webdevelopment-activity-7242540859420729344-07hz/?utm_source=share&utm_medium=member_desktop",
-    stack: "htmlandcss",
+"https://drive.google.com/file/d/1_9WbTLZOldi5udM4-8-GtqfQNIwKPBVt/view?usp=drive_link",    stack: "htmlandcss",
 
     tech: [html, css],
   },
@@ -130,8 +129,7 @@ export const myProject = [
     demo: "https://dev-heshamali.github.io/html-css-3/",
     repo: "https://github.com/Dev-HeshamAli/html-css-3",
     video:
-      "https://www.linkedin.com/posts/heshamalihassan_high-impact-responsive-web-design-im-activity-7242541784659066880-lrIH/?utm_source=share&utm_medium=member_desktop",
-    stack: "javascript",
+"https://drive.google.com/file/d/11oyTeBGFPBhHW12O77XhLzdXDYcHJ0MN/view?usp=drive_link",    stack: "javascript",
 
     tech: [html, css, JavaScript],
   },
@@ -143,8 +141,7 @@ export const myProject = [
     demo: "https://dev-heshamali.github.io/html-css-2/",
     repo: "https://github.com/Dev-HeshamAli/html-css-2",
     video:
-      "https://www.linkedin.com/posts/heshamalihassan_im-thrilled-to-present-my-latest-project-activity-7242324624779190274-Khm8/?utm_source=share&utm_medium=member_desktop",
-    stack: "htmlandcss",
+"https://drive.google.com/file/d/1jLwodKlPrNIM2PPedleoXS9JlF29X18p/view?usp=drive_link",    stack: "htmlandcss",
 
     tech: [html, css],
   },
@@ -156,8 +153,7 @@ export const myProject = [
     demo: "https://dev-heshamali.github.io/html-css-1/",
     repo: "https://github.com/Dev-HeshamAli/html-css-1",
     video:
-      "https://www.linkedin.com/posts/heshamalihassan_responsive-landing-page-design-im-excited-activity-7242323203648319488-ZdDN/?utm_source=share&utm_medium=member_desktop",
-    stack: "htmlandcss",
+"https://drive.google.com/file/d/1EyyLuBBcRc9kn0KzRAMhJQEIyFFwpzNH/view?usp=drive_link",    stack: "htmlandcss",
     tech: [html, css],
   },
   {
@@ -168,8 +164,7 @@ export const myProject = [
     demo: "https://dev-heshamali.github.io/html-css-Bootstrap-1/",
     repo: "https://github.com/Dev-HeshamAli/html-css-Bootstrap-1",
     video:
-      "https://www.linkedin.com/posts/heshamalihassan_frontend-html-css-activity-7243276726741393410-FCLW/?utm_source=share&utm_medium=member_desktop",
-    stack: "htmlandcss",
+"https://drive.google.com/file/d/1eqSxHWR4orMwhG1DUa302oDNAGGXdkLv/view?usp=drive_link",    stack: "htmlandcss",
     tech: [html, css, bootStrap],
   },
   {
@@ -180,8 +175,7 @@ export const myProject = [
     demo: "https://dev-heshamali.github.io/html-css-Bootstrap-2/",
     repo: "https://github.com/Dev-HeshamAli/html-css-Bootstrap-2",
     video:
-      "https://www.linkedin.com/posts/heshamalihassan_frontend-html-css-activity-7243273478823403521-nQdy/?utm_source=share&utm_medium=member_desktop",
-    stack: "htmlandcss",
+"https://drive.google.com/file/d/1--1E9juNZDhw8tvOoJiZtH5W_hIj6Gzc/view?usp=drive_link",    stack: "htmlandcss",
     tech: [html, css, bootStrap],
   },
   {
@@ -227,6 +221,6 @@ export const myProject = [
     video:
       "https://drive.google.com/file/d/14nFMyb1wHwvAMBn4r4v8YNbHyz8s5rwp/view?usp=sharing",
     stack: "react",
-    tech: [react, MaterialUi, ReactRouter, vite ,jsonServer],
+    tech: [react, MaterialUi, ReactRouter, vite, jsonServer],
   },
 ];
